@@ -1,0 +1,51 @@
+{
+ "name": "Jezero crater \u2014 Mars 2020 TRN CTX DTM mosaic",
+ "rows": 1512,
+ "cols": 1596,
+ "projection": "Equirectangular, lat_ts=0, lon0=0, sphere R=3396190 m (planetocentric, east-positive)",
+ "radiusM": 3396190.0,
+ "upperLeftX": 4573663.250853,
+ "upperLeftY": 1109693.140188,
+ "pixelSizeM": 20.0,
+ "west": 77.16046545922367,
+ "east": 77.69897516629472,
+ "south": 18.211027390963398,
+ "north": 18.721194481872804,
+ "elevOffsetM": -2800.0,
+ "elevScaleM": 0.05,
+ "elevMinM": -2710.69580078125,
+ "elevMaxM": -1515.53955078125,
+ "verticalDatum": "MOLA areoid (DeltaGeoid applied by USGS)",
+ "encoding": "uint16 little-endian, row-major from north-west corner; elevation = offset + scale * value",
+ "ortho": {
+  "file": "jezero_ctx_ortho.jpg",
+  "width": 2660,
+  "height": 2520,
+  "metersPerPixel": 12.0
+ },
+ "themisNight": {
+  "file": "jezero_themis_night.png",
+  "width": 392,
+  "height": 371,
+  "note": "8-bit normalised mosaic DN (relative night-time brightness temperature, not kelvin)"
+ },
+ "validation": {
+  "themis_dn_range": [
+   1,
+   250
+  ],
+  "themis_zero_fraction": 0.0,
+  "ctx_minus_mola_m": {
+   "n": 56,
+   "mean": -3.1096954345703125,
+   "rms": 35.70407428483742
+  },
+  "ctx_minus_rover_elev_m": {
+   "n": 708,
+   "mean": -0.821557343006134,
+   "rms": 2.8208491802215576,
+   "p95_abs": 5.375573635101318
+  },
+  "traverse_points": 4648
+ }
+}

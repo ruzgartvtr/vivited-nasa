@@ -1,0 +1,291 @@
+{
+ "positionSource": "Perseverance localized rover positions, NASA/JPL MMGIS M20_waypoints.json",
+ "note": "scienceValue (1–5) is an editorial planning priority assigned by the Vivited team, not a NASA product.",
+ "references": {
+  "farley2022": "Farley, K.A. et al. (2022) Science 377, eabo2196 — Aqueously altered igneous rocks on the floor of Jezero crater.",
+  "liu2022": "Liu, Y. et al. (2022) Science 377, 1513 — An olivine cumulate outcrop on the floor of Jezero crater.",
+  "simon2023": "Simon, J.I. et al. (2023) JGR Planets 128, e2022JE007474 — Samples collected from the floor of Jezero crater.",
+  "stack2024": "Stack, K.M. et al. (2024) JGR Planets 129 — Sedimentology and stratigraphy of the Shenandoah formation, western fan, Jezero.",
+  "bosak2024": "Bosak, T. et al. (2024) AGU Advances 5 — Astrobiological potential of rocks acquired by Perseverance at a sedimentary fan front.",
+  "mangold2021": "Mangold, N. et al. (2021) Science 374, 711 — Perseverance rover reveals an ancient delta-lake system and flood deposits at Jezero.",
+  "horgan2020": "Horgan, B.H.N. et al. (2020) Icarus 339, 113526 — The mineral diversity of Jezero crater (CRISM orbital spectroscopy).",
+  "goudge2015": "Goudge, T.A. et al. (2015) JGR Planets 120, 775 — Assessing the mineralogy of the watershed and fan deposits of the Jezero crater paleolake (CRISM).",
+  "hurowitz2025": "Hurowitz, J.A. et al. (2025) Nature 645 — Redox-driven mineral and organic associations in Jezero crater, Mars.",
+  "depot": "NASA/JPL (2023) Mars 2020 mission update — Three Forks sample depot completed, 10 tubes (Dec 2022 – Jan 2023).",
+  "hecht2021": "Hecht, M. et al. (2021) Space Sci. Rev. 217, 9; Hoffman, J.A. et al. (2022) Science Advances 8, eabp8636 — MOXIE oxygen production on Mars.",
+  "rim": "NASA/JPL (2024–2025) Mars 2020 Crater Rim Campaign mission updates."
+ },
+ "targets": [
+  {
+   "id": "oeb",
+   "name": "Octavia E. Butler Landing",
+   "kind": "landmark",
+   "unit": "Crater floor · Máaz formation",
+   "summary": "Perseverance touchdown site, 18 Feb 2021. Flat, fractured basaltic lava plain; the MOXIE experiment later produced oxygen from the CO₂ atmosphere on this crater floor, the first in-situ resource demonstration on another planet.",
+   "scienceValue": 2,
+   "resources": [
+    "isru-oxygen"
+   ],
+   "lon": 77.450886,
+   "lat": 18.444627,
+   "elevM": -2569.9,
+   "sol": 13,
+   "refs": [
+    "farley2022",
+    "hecht2021"
+   ]
+  },
+  {
+   "id": "roubion",
+   "name": "Roubion · Polygon Valley",
+   "kind": "geology",
+   "unit": "Crater floor · Máaz formation",
+   "summary": "First coring attempt of the mission. The altered basalt crumbled to powder — evidence of extensive aqueous weathering — and the tube sealed a sample of Martian atmosphere instead.",
+   "scienceValue": 3,
+   "resources": [],
+   "lon": 77.45165,
+   "lat": 18.427695,
+   "elevM": -2584.9,
+   "sol": 157,
+   "refs": [
+    "farley2022",
+    "simon2023"
+   ]
+  },
+  {
+   "id": "rochette",
+   "name": "Rochette · Citadelle",
+   "kind": "geology",
+   "unit": "Crater floor · Máaz formation (Artuby ridge)",
+   "summary": "First rock cores collected on Mars (Montdenier, Montagnac). Basaltic lava with salt-filled voids: an igneous rock datable on Earth that also records later contact with liquid water.",
+   "scienceValue": 4,
+   "resources": [],
+   "lon": 77.444366,
+   "lat": 18.430739,
+   "elevM": -2574.5,
+   "sol": 180,
+   "refs": [
+    "farley2022",
+    "simon2023"
+   ]
+  },
+  {
+   "id": "brac",
+   "name": "Brac outcrop · South Séítah",
+   "kind": "geology",
+   "unit": "Crater floor · Séítah formation",
+   "summary": "Olivine-rich cumulate, formed when crystals settled in a thick magma body. Olivine is partly altered to carbonate — a reaction that consumes water and CO₂ and can release hydrogen.",
+   "scienceValue": 5,
+   "resources": [
+    "carbonate",
+    "olivine"
+   ],
+   "lon": 77.443019,
+   "lat": 18.433964,
+   "elevM": -2569.2,
+   "sol": 248,
+   "refs": [
+    "liu2022",
+    "farley2022"
+   ]
+  },
+  {
+   "id": "issole",
+   "name": "Issole · Séítah",
+   "kind": "geology",
+   "unit": "Crater floor · Séítah formation",
+   "summary": "Second Séítah sampling station (Robine, Malay cores). Layered olivine cumulate ridges separated by sand ripples; ripples and ledges make this the roughest ground on the crater floor.",
+   "scienceValue": 4,
+   "resources": [
+    "olivine"
+   ],
+   "lon": 77.441373,
+   "lat": 18.432661,
+   "elevM": -2574.4,
+   "sol": 286,
+   "refs": [
+    "liu2022",
+    "simon2023"
+   ]
+  },
+  {
+   "id": "threeforks",
+   "name": "Three Forks sample depot",
+   "kind": "cache",
+   "unit": "Fan front · crater floor contact",
+   "summary": "Ten sealed sample tubes were laid on the surface here as a backup cache for Mars Sample Return. Chosen because it is flat and rock-poor: a proven safe landing and staging zone at the foot of the delta.",
+   "scienceValue": 4,
+   "resources": [
+    "landing-zone"
+   ],
+   "lon": 77.408056,
+   "lat": 18.45267,
+   "elevM": -2545.3,
+   "sol": 658,
+   "refs": [
+    "depot"
+   ]
+  },
+  {
+   "id": "amalik",
+   "name": "Amalik · Cape Nukshak",
+   "kind": "geology",
+   "unit": "Fan front · Shenandoah formation",
+   "summary": "Fine-grained sedimentary rocks at the base of the delta scarp (Shuyak, Mageik cores). Lowest exposed beds of the lake-deposited sequence, with sulfate and clay minerals.",
+   "scienceValue": 4,
+   "resources": [
+    "hydrated-minerals"
+   ],
+   "lon": 77.40144,
+   "lat": 18.450726,
+   "elevM": -2526.5,
+   "sol": 565,
+   "refs": [
+    "stack2024",
+    "bosak2024"
+   ]
+  },
+  {
+   "id": "wildcat",
+   "name": "Wildcat Ridge · Hogwallow Flats",
+   "kind": "astrobiology",
+   "unit": "Fan front · Shenandoah formation",
+   "summary": "Sulfate-bearing mudstone deposited in still lake water. SHERLOC measured the mission's strongest organic-associated signals to that date here; fine mudstones are the best preservers of biosignatures.",
+   "scienceValue": 5,
+   "resources": [
+    "hydrated-minerals",
+    "sulfate"
+   ],
+   "lon": 77.406168,
+   "lat": 18.458895,
+   "elevM": -2520.9,
+   "sol": 477,
+   "refs": [
+    "bosak2024",
+    "stack2024"
+   ]
+  },
+  {
+   "id": "belva",
+   "name": "Belva crater overlook",
+   "kind": "geology",
+   "unit": "Upper fan",
+   "summary": "Rim of a ~0.9 km impact crater that punches into the fan top. Its walls expose steeply dipping sandstone beds and boulders, a natural cross-section through the river deposits.",
+   "scienceValue": 3,
+   "resources": [],
+   "lon": 77.369008,
+   "lat": 18.482929,
+   "elevM": -2423.8,
+   "sol": 770,
+   "refs": [
+    "mangold2021"
+   ]
+  },
+  {
+   "id": "onahu",
+   "name": "Onahu · Upper fan",
+   "kind": "geology",
+   "unit": "Upper fan",
+   "summary": "Conglomerate of rounded pebbles carried by a fast river from far outside the crater (Otis Peak core): a grab-bag of rocks from the ancient highlands watershed.",
+   "scienceValue": 3,
+   "resources": [],
+   "lon": 77.368194,
+   "lat": 18.482988,
+   "elevM": -2420.8,
+   "sol": 821,
+   "refs": [
+    "mangold2021"
+   ]
+  },
+  {
+   "id": "pelican",
+   "name": "Pelican Point · Margin unit",
+   "kind": "geology",
+   "unit": "Margin unit",
+   "summary": "First station in the carbonate-rich band along the inner crater edge, mapped from orbit by CRISM. Carbonates precipitate from water and can entomb organic matter.",
+   "scienceValue": 4,
+   "resources": [
+    "carbonate"
+   ],
+   "lon": 77.350551,
+   "lat": 18.48342,
+   "elevM": -2423.3,
+   "sol": 925,
+   "refs": [
+    "horgan2020",
+    "goudge2015"
+   ]
+  },
+  {
+   "id": "bunsen",
+   "name": "Bunsen Peak · Margin unit",
+   "kind": "astrobiology",
+   "unit": "Margin unit",
+   "summary": "Carbonate and silica cemented rock (Comet Geyser core). Both minerals are excellent at preserving microfossils and organics on Earth.",
+   "scienceValue": 5,
+   "resources": [
+    "carbonate",
+    "hydrated-silica"
+   ],
+   "lon": 77.327203,
+   "lat": 18.491833,
+   "elevM": -2383.0,
+   "sol": 1084,
+   "refs": [
+    "horgan2020"
+   ]
+  },
+  {
+   "id": "brightangel",
+   "name": "Bright Angel · Cheyava Falls",
+   "kind": "astrobiology",
+   "unit": "Neretva Vallis",
+   "summary": "Mudstone in the inlet river channel with 'leopard spot' reaction fronts of iron phosphate and iron sulfide associated with organic carbon (Sapphire Canyon core) — reported as a potential biosignature that requires sample return to resolve.",
+   "scienceValue": 5,
+   "resources": [
+    "hydrated-minerals"
+   ],
+   "lon": 77.303698,
+   "lat": 18.495985,
+   "elevM": -2362.9,
+   "sol": 1219,
+   "refs": [
+    "hurowitz2025"
+   ]
+  },
+  {
+   "id": "lookout",
+   "name": "Lookout Hill · Crater rim",
+   "kind": "landmark",
+   "unit": "Jezero crater rim",
+   "summary": "Highest point of the Perseverance traverse, about 780 m above the landing site. Commands a view of the whole crater floor and delta; the climb sustains the steepest slopes of the mission.",
+   "scienceValue": 3,
+   "resources": [
+    "vantage"
+   ],
+   "lon": 77.268527,
+   "lat": 18.457528,
+   "elevM": -1786.0,
+   "sol": 1354,
+   "refs": [
+    "rim"
+   ]
+  },
+  {
+   "id": "witchhazel",
+   "name": "Witch Hazel Hill",
+   "kind": "geology",
+   "unit": "Jezero crater rim · outer slope",
+   "summary": "Layered outcrop on the outer rim exposing some of the oldest rocks sampled on Mars (Silver Mountain core), uplifted from deep crust by the Jezero impact.",
+   "scienceValue": 5,
+   "resources": [],
+   "lon": 77.264932,
+   "lat": 18.458706,
+   "elevM": -1811.3,
+   "sol": 1411,
+   "refs": [
+    "rim"
+   ]
+  }
+ ]
+}

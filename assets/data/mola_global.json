@@ -1,0 +1,11 @@
+{
+ "rows": 720,
+ "cols": 1440,
+ "pixelsPerDegree": 4,
+ "west": -180,
+ "north": 90,
+ "encoding": "int16 little-endian metres above the MOLA areoid, row-major from 90N/180W",
+ "source": "MGS MOLA MEGDR megt90n000eb.img (16 px/deg) box-averaged to 4 px/deg",
+ "minM": -8038.3125,
+ "maxM": 21124.375
+}

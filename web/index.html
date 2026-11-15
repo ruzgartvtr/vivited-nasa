@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Replaced by the value of `--base-href` given to `flutter build web`. -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vivited — Martian Exploration Intelligence System. Plan and rehearse crewed surface walks at Jezero crater, Mars, on measured NASA terrain, weather and radiation data.">
+  <meta name="theme-color" content="#0C0B0A">
+  <meta name="color-scheme" content="dark">
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Vivited">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Vivited — Martian Exploration Intelligence System</title>
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    html, body { margin: 0; height: 100%; background: #0C0B0A; }
+    /* Shown until the Flutter engine paints its first frame. */
+    #boot {
+      position: fixed; inset: 0; display: flex; flex-direction: column;
+      align-items: center; justify-content: center; gap: 10px;
+      color: #EFE8DC; font-family: Georgia, 'Times New Roman', serif;
+      transition: opacity .3s ease;
+    }
+    #boot .name { font-size: 44px; letter-spacing: -0.01em; }
+    #boot .sub {
+      font: 500 10px/1 ui-monospace, Menlo, Consolas, monospace;
+      letter-spacing: .16em; color: #A59B8E;
+    }
+    #boot .bar { width: 120px; height: 1px; background: #2B2622; margin-top: 14px; overflow: hidden; }
+    #boot .bar i { display: block; width: 40%; height: 100%; background: #FF5A1F; animation: slide 1.4s ease-in-out infinite; }
+    @keyframes slide { from { transform: translateX(-100%); } to { transform: translateX(250%); } }
+    @media (prefers-reduced-motion: reduce) { #boot .bar i { animation: none; width: 100%; } }
+  </style>
+</head>
+<body>
+  <div id="boot" role="status" aria-label="Vivited is starting">
+    <div class="name">Vivited</div>
+    <div class="sub">MARTIAN EXPLORATION INTELLIGENCE SYSTEM</div>
+    <div class="bar"><i></i></div>
+  </div>
+  <noscript>Vivited needs JavaScript to run.</noscript>
+  <script>
+    window.addEventListener('flutter-first-frame', function () {
+      var el = document.getElementById('boot');
+      if (!el) return;
+      el.style.opacity = '0';
+      setTimeout(function () { el.remove(); }, 320);
+    });
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
