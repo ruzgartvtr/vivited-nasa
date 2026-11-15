@@ -25,7 +25,7 @@ The app works offline except for the regional Viking context tiles around the
 Jezero footprint, which stream from NASA Solar System Treks. If they are
 unreachable they are simply absent.
 
-# Vivited — Martian Exploration Intelligence System
+# Site Link
 Our site is at https://vivited-nasa-space-apps.web.app/ and you can access it in your browser if you have JavaScript
 
 ## What is in it
